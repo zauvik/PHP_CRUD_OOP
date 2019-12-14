@@ -1,4 +1,4 @@
-<?
+<?php
 include '../action/database.php';
 $db = new database(); //membuat instance dari class database pada file database.php
 $id = $_GET['id'];
@@ -13,6 +13,6 @@ foreach($db->show_byid($id) as $x){
     <input type="submit">
 </form>
 
-<?
+<?php
 }
 ?>
