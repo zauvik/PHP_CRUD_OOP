@@ -1,4 +1,4 @@
-<?
+<?php
 include '../action/database.php';
 $db = new database(); //membuat instance dari class database pada file database.php
 ?>
