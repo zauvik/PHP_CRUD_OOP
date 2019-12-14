@@ -4,8 +4,8 @@ class database{
 	var $host = "127.0.0.1"; //your local ip
 	var $dbuser = "root";
 	var $dbpass = "";
-    var $db = "oop_mhs";
-    var $conn;
+    	var $db = "oop_mhs";
+    	var $conn;
     
     //////////////////////////////////// class constructor /////////////////////////////////////
 	public function __construct(){
@@ -14,7 +14,7 @@ class database{
 
         // Check connection
         if ($conn -> connect_errno) {
-        echo "Failed to connect to MySQL: " . $mysqli -> connect_error;
+        echo "Failed to connect to MySQL: " . $conn -> connect_error;
         exit();
         }
     }
