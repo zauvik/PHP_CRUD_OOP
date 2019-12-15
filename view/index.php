@@ -26,7 +26,7 @@ $db = new database(); //membuat instance dari class database pada file database.
 		<td><?php echo $x['kelas']; ?></td>
         <td><?php echo $x['angkatan']; ?></td>
 		<td>
-			<a href="update.php?id=<?php echo $x['id']; ?>&action=delete">Update</a>
+			<a href="update.php?id=<?php echo $x['id']; ?>">Update</a>
 			<a href="../action/helper.php?id=<?php echo $x['id']; ?>&action=delete">Delete</a>
 		</td>
 	</tr>
